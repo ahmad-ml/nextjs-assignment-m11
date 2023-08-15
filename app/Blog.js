@@ -7,7 +7,7 @@ const Blog = () => {
   useEffect(() => {
     // Fetch the list of blog posts from the backend API and update the `posts` state variable
     // Replace the API_URL with the actual URL of the backend API
-    fetch(API_URL)
+    fetch(actual_API_URL)
       .then(response => response.json())
       .then(data => setPosts(data));
   }, []);
