@@ -1,0 +1,27 @@
+.footer {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f6f6f6;
+    border-top: 1px solid #d4d4d4;
+    text-align: center;
+}
+
+.linksList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.linksList li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.linksList a {
+    color: #0070f3;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.linksList a:hover {
+    text-decoration: underline;
+}
