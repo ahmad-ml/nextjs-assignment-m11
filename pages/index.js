@@ -2,7 +2,6 @@ import Link from 'next/link';
 import Footer from '../components/Footer';
 import styles from './home.module.css';
 
-
 function Home() {
     return (
 <div className={styles.container}>
