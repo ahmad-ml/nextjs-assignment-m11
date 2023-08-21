@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import blogData from '../../data/blogData.json';
 import styles from './post.module.css';
@@ -17,7 +18,7 @@ function Post() {
     <p className={styles.date}>Date: {post.date}</p>
     <p>{post.content}</p>
     <p>
-        <a href="/blog" className={styles.backLink}>Back to Blog</a>
+        <Link href="/blog" className={styles.backLink}>Back to Blog</Link>
     </p>
 </div>
     );
